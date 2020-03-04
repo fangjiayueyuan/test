@@ -1,7 +1,7 @@
-class Product():
+class Product():  #定义类，保存名字和价格等信息
     def __init__(self,name):
         self.name = name
-        self.label_price = 0
+        self.label_price = 0  # 初始值为0
         self.real_price = 0
 
 c = Product("电脑")
